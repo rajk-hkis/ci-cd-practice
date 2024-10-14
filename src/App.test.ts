@@ -13,6 +13,7 @@ describe("add function", () => {
     // Test case 3: Add a positive and a negative number
     expect(add(1, -2)).toBe(-1);
 
+    // Test case 4: Add zero
     expect(add(0, 5)).toBe(5);
   });
 });
